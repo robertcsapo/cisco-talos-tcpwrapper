@@ -1,0 +1,8 @@
+version: '2'
+services:
+  cisco-talos-tcpwrapper:
+    image: robertcsapo/cisco-talos-tcpwrapper
+    volumes:
+      - '/etc/hosts.deny:/go/src/cisco-talos-tcpwrapper/hosts.deny'
+      - '/etc/cisco-talos-tcpwrapper/:/go/src/cisco-talos-tcpwrapper/cisco-talos-tcpwrapper/'
+    restart: unless-stopped

@@ -106,7 +106,7 @@ func start() {
         // we found cisco tales file
         catch = true
       } else {
-        log.Printf("ISSUE: \tSeems to be another %s %s in %shosts.deny\n",cisco_talos_file,path)
+        log.Printf("ISSUE: \tSeems to be another %s in %shosts.deny\n",cisco_talos_file,path)
         if debug == true {
           log.Printf("DEBUG: \t%shosts.deny:%v: %s",path,content_line,content)
         }

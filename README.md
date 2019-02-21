@@ -1,4 +1,6 @@
 # cisco-talos-tcpwrapper
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/robertcsapo/cisco-talos-tcpwrapper)
+![Docker Pulls](https://img.shields.io/docker/pulls/robertcsapo/cisco-talos-tcpwrapper.svg)
 
 ## Demo
 
